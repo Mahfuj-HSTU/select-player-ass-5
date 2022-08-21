@@ -6,3 +6,7 @@ body {
   font-family: "Berkshire Swash", cursive;
   font-size: 70px;
 }
+.costom-input {
+  width: 120px;
+  height: 40px;
+}
