@@ -162,42 +162,47 @@
             <div class="d-flex justify-content-between">
               <p class="pt-2 text-light me-2 fs-6">Per Player</p>
               <input
-                id=""
+                id="player-price"
                 class="bg-dark text-white border-success form-control costom-input"
                 type="text"
+                value="1000"
               />
             </div>
-            <button class="btn btn-primary fw-semiboldm my-4">Calculate</button>
+            <button id="calculate" class="btn btn-primary fw-semiboldm my-4">
+              Calculate
+            </button>
             <p class="text-white">
-              Player Expenses &nbsp;&nbsp;&nbsp;&nbsp; $ <span>00</span>
+              Player Expenses &ensp;&ensp;&ensp;&ensp; $
+              <span id="players-price">00</span>
             </p>
             <div class="d-flex justify-content-between mb-3">
               <p class="pt-2 text-light me-2 fs-6">Manager</p>
               <input
-                id=""
+                id="manager-price"
                 class="bg-dark text-white border-success form-control costom-input"
                 type="text"
+                value="3000"
               />
             </div>
             <div class="d-flex justify-content-between mb-3">
               <p class="pt-2 text-light me-2 fs-6">Coach</p>
               <input
-                id=""
+                id="coach-price"
                 class="bg-dark text-white border-success form-control costom-input"
                 type="text"
+                value="4000"
               />
             </div>
-            <button class="btn btn-primary fw-semiboldm my-2">
+            <button
+              id="calculate-total"
+              class="btn btn-primary fw-semiboldm my-2"
+            >
               Calculate Total
             </button>
-            <div class="d-flex justify-content-between mb-3">
-              <h5 class="pt-2 text-light me-2 fs-6">Total</h5>
-              <input
-                id=""
-                class="bg-dark text-white border-0 form-control costom-input"
-                type="text"
-              />
-            </div>
+            <p class="text-white">
+              Total &emsp;&emsp;&emsp;&emsp;&emsp; &emsp;$
+              <span id="total-price">00</span>
+            </p>
           </div>
         </div>
       </div>
